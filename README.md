@@ -1,6 +1,6 @@
 ---
 
-# �� Regex Data Extraction Tool
+# 📄 Regex Data Extraction Tool
 
 ## 🚀 Overview
 
@@ -13,7 +13,7 @@ It simulates data coming from an API and extracts 8 types of information:
 * 📞 Phone numbers
 * 💳 Credit card numbers
 * 🕒 Time (12-hour and 24-hour format)
-* ��️ HTML tags
+* 🏷️ HTML tags
 * \#️⃣ Hashtags
 * 💲 Currency amounts
 
@@ -22,7 +22,7 @@ It simulates data coming from an API and extracts 8 types of information:
 ## 📂 File Structure
 
 ```
-regex_data_extraction.js     # Main file
+regex_data_extraction.js     # Main logic (to embed in an HTML file)
 README.md                    # You're here!
 ```
 
