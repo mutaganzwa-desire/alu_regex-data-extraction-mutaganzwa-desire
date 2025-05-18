@@ -1,4 +1,3 @@
----
 
 # 📄 Regex Data Extraction Tool
 
@@ -17,7 +16,6 @@ It simulates data coming from an API and extracts 8 types of information:
 * \#️⃣ Hashtags
 * 💲 Currency amounts
 
----
 
 ## 📂 File Structure
 
