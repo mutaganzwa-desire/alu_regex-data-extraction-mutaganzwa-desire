@@ -10,15 +10,14 @@ const patterns = {
   currency: /\$\d{1,3}(,\d{3})*(\.\d{2})?/g
 };
 
-// Simulate a large dataset: API returns an array of strings (pages)
+// Pass in the designated API
 function getApiData() {
-  // This would be replaced by actual API call in production
+  // This is just a sample dataset that would be replaced by an actual API
   return [
     `Contact us at user@example.com. Visit https://www.example.com. Call (123) 456-7890.`,
     `<div class="example">Price is $1,234.56. Use card 1234-5678-9012-3456. #OfferTime</div>`,
     `Meeting is at 2:30 PM or 14:30. More info at https://sub.site.org/page.html`,
     `Emails: test@domain.org, hello@company.co.uk | Phone: 123-456-7890`
-    // ...hundreds or thousands more pages
   ];
 }
 
