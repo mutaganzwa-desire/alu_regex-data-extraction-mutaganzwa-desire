@@ -17,10 +17,10 @@ It simulates data coming from an API and extracts 8 types of information:
 * 💲 Currency amounts
 
 
-## 📂 File Structure
+## 📂 Git Structure
 
 ```
-regex_data_extraction.js     # Main logic (to embed in an HTML file)
+regex_data_extraction.js     # Main file
 README.md                    # You're here!
 ```
 
@@ -35,60 +35,33 @@ README.md                    # You're here!
    A `getApiData()` function returns an array of strings, simulating an API response.
 
 3. **Extraction Function**
-   `extractAllData()` loops through all data and collects matches using the defined regex.
+   `extractAllData()` loops through all data and collects matches using the defined regular expressions.
 
 4. **Output**
-   The data is organized into categories and displayed in the browser's developer console.
+   The data is organized into categories and displayed.
 
 ---
 
-## 🌐 Running the Script in a Browser
+## 🌐 Running the Script
 
-### 1. Create an HTML file
+### 1. Open VS Code
 
-Create a new file named `index.html` and add the following:
+Open the regex_data_extraction.js file in VS Code editor
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Regex Data Extraction</title>
-</head>
-<body>
-  <h1>Open Developer Console to See Extracted Data</h1>
+![Screenshot (82)](https://github.com/user-attachments/assets/258a08ff-aa2a-4690-ac91-2db22a861276)
 
-  <script src="regex_data_extraction.js"></script>
-</body>
-</html>
-```
+### 2. Run Code
 
-### 2. Place your `regex_data_extraction.js` in the same directory
+Run the code by pressing the designated button in the top right hand side or by using the key combination ```Ctrl+Alt+N```
 
-Make sure the script file is saved in the same folder as your `index.html`.
+![Screenshot (83)](https://github.com/user-attachments/assets/a813a667-fa55-44e2-8306-f97fa128b8f5)
 
-### 3. Open the HTML File in Your Browser
 
-* Double-click `index.html`, or
-* Right-click → “Open With” → Choose your browser
+### 3. View extracted data
 
-### 4. View Results
+After running the code, you will be able to view the output as shown below
 
-* Open the **Developer Console** (press `F12` or right-click → "Inspect" → "Console")
-* You’ll see an output like this:
-
-```js
-Extracted Data: {
-  emails: ['user@example.com', 'test@domain.org', 'hello@company.co.uk'],
-  urls: ['https://www.example.com', 'https://sub.site.org/page.html'],
-  phones: ['(123) 456-7890', '123-456-7890'],
-  creditCards: ['1234-5678-9012-3456'],
-  time: ['2:30 PM', '14:30'],
-  htmlTags: ['<div class="example">', '</div>'],
-  hashtags: ['#OfferTime'],
-  currency: ['$1,234.56']
-}
-```
+![Screenshot (90)](https://github.com/user-attachments/assets/95159e92-bf92-4d65-a556-c7ce150f31eb)
 
 ---
 
